@@ -22,3 +22,17 @@ Many currencies, like the INR and JPY, lose value over time due to not being bac
 ### 5. Blockchain as a Solution
 
 Unlike traditional currencies, blockchain-based assets are decentralized and transparent. Blockchain allows anyone to create a currency (like “Kirat coin”), but it requires trust in scarcity and decentralization to gain value.
+
+
+## Hashing
+
+Hashing is a process that turns data into a fixed-size string of characters. The properties of hash functions make them secure, reliable, and collision-resistant, key for blockchain security.
+
+```copy
+const crypto = require('crypto');
+
+const input = "100xdevs";
+const hash = crypto.createHash('sha256').update(input).digest('hex');
+
+console.log(hash)
+```
