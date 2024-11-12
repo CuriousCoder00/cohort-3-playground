@@ -1,0 +1,17 @@
+{
+  "name": "web-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "assignment1": "node assignment1.js",
+    "assignment2": "node assignment2.js",
+    "assignment3": "node assignment3.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
